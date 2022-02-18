@@ -1,15 +1,28 @@
-COMANDOS			|		FUNCIONALIDAD
+COMANDOS				|		FUNCIONALIDAD
 
-git --version		|		Se utiliza para saber la versión instalada de git
+git --version			|		Se utiliza para saber la versión instalada de git
 
-dir(Windows)		|
-ls(Linux)			|		Se utiliza para saber el directorio (elementos) en una carpeta específica
+dir(Windows)			|
+ls(Linux)				|		Se utiliza para saber el directorio (elementos) en una carpeta específica
 
-cd+""+(directorio)	|		Se utiliza para navegar de una dirección a otra. Es importante recalcar que se usa "/" en lugar de "\".
+cd <address>			|		Se utiliza para navegar de una dirección a otra. Es importante recalcar que se usa "/" en lugar de "\".
 
-git init 			|		Inicializa el repositorio, todas las modificaciones que se realicen GIT va a poder informarnos 
+git init 				|		Inicializa el repositorio, todas las modificaciones que se realicen GIT va a poder informarnos 
 
-git status 		|		Verifica si realmente GIT está viendo la carpeta y entendiendo los archivos
+git status 			|		Verifica si realmente GIT está viendo la carpeta y entendiendo los archivos
 
-git add .			|		Agrega todos los archivos y/o carpetas dentro del directorio para que GIT pueda monitorearlos
+git add .				|		Agrega todos los archivos y/o carpetas dentro del directorio para que GIT pueda monitorearlos
+
+git rm --cached <file>	|		Elimina un archivo, específico, para que ya no sea monitoreado por GIT
+
+git commit -m "mensaje"	|		Actualiza algún cambio en el archivo; y con el mensaje podemos describir la acción
+
+git config --global user.email "<email>": Configura el email personal (todo debe ser personalizado)
+git config --global user.name "<nombre>": Configura tu nombre (todo deber ser personalizado)
+
+
+
+
+
+
 
