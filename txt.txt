@@ -1,0 +1,15 @@
+COMANDOS			|		FUNCIONALIDAD
+
+git --version		|		Se utiliza para saber la versión instalada de git
+
+dir(Windows)		|
+ls(Linux)			|		Se utiliza para saber el directorio (elementos) en una carpeta específica
+
+cd+""+(directorio)	|		Se utiliza para navegar de una dirección a otra. Es importante recalcar que se usa "/" en lugar de "\".
+
+git init 			|		Inicializa el repositorio, todas las modificaciones que se realicen GIT va a poder informarnos 
+
+git status 		|		Verifica si realmente GIT está viendo la carpeta y entendiendo los archivos
+
+git add .			|		Agrega todos los archivos y/o carpetas dentro del directorio para que GIT pueda monitorearlos
+
